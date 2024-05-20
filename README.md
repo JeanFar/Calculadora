@@ -27,3 +27,7 @@ Design criado por (in100tiva) / Employed by LuanPDD
 Projeto feito em sala da [Infinity School](https://infinityschool.com.br/).
 
 Professor [Luan Oliveira](https://www.linkedin.com/in/luanpdd/).
+
+### Futuras Atualizações:
+1. Resolver problema de as imagens não estarem carregando;
+2. Adicionar JS e torná-la funcional.
