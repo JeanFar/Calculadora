@@ -4,43 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 4 Livecoding</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <br>
-    <div class="calculadora">
-        <div class="section">
-        <div class="operacao"><h2>1+1</h2></div>
-        <div class="secao1"> 
-            <div class="="><h3><span>=</span></h3></div>
-            <div class="resultado"><h1>2</h1></span></div>
+    <div id="calculadora">
+        <div id="section">
+
+        <div id="operacao"><h2>0</h2></div>
+
+        <div id="secao1"> 
+
+            <h3><bold>=</bold></h3>
+            <div id="resultado"><h1></h1></span></div>
+
         </div>
     </div>
 
-        <div class="teclado">
-            <div class="cancel"><button onclick="CE()"><img src="/Imagens/cancelar.png" alt="cancelar"></button></div>
-            <div class="c"><button onclick="C()"><img src="/Imagens/limpar.png" alt="limpar"></button></div>
-            <div class="%"><button onclick="fracao('%')"><img src="/Imagens/porcentagem.png" alt="porcentagem"></button></div>
-            <div class="/"><button onclick="operator('/')"><img src="/Imagens/divisao.png" alt="divisão"></button></div>
-            <div class="7"><button onclick="appendNumber('7')"><img src="/Imagens/sete.png" alt="sete"></button></div>
-            <div class="8"><button onclick="appendNumber('8')"><img src="/Imagens/oito.png" alt="oito"></button></div>
-            <div class="9"><button onclick="appendNumber('9')"><img src="/Imagens/nove.png" alt="nove"></button></div>
-            <div class="x"><button onclick="operator('x')"><img src="/Imagens/multiplicacao.png" alt="multiplicação"></button></div>
-            <div class="4"><button onclick="appendNumber('4')"><img src="/Imagens/quatro.png" alt="quatro"></button></div>
-            <div class="5"><button onclick="appendNumber('5')"><img src="/Imagens/cinco.png" alt="cinco"></button></div>
-            <div class="6"><button onclick="appendNumber('6')"><img src="/Imagens/seis.png" alt="seis"></button></div>
-            <div class="-"><button onclick="operator('-')"><img src="/Imagens/subtracao.png" alt="subtração"></button></div>
-            <div class="1"><button onclick="appendNumber('1')"><img src="/Imagens/um.png" alt="um"></button></div>
-            <div class="2"><button onclick="appendNumber('2')"><img src="/Imagens/dois.png" alt="dois"></button></div>
-            <div class="3"><button onclick="appendNumber('3')"><img src="/Imagens/tres.png" alt="três"></button></div>
-            <div class="+"><button onclick="operator('+')"><img src="/Imagens/soma.png" alt="soma"></button></div>
-            <div class="+/-"><button onclick="operator('+/-')"><img src="/Imagens/mais ou menos.png" alt="operador = ou -"></button></div>
-            <div class="0"><button onclick="appendNumber('0')"><img src="/Imagens/zero.png" alt="zero"></button></div>
-            <div class=","><button onclick="operator(',')"><img src="/Imagens/virgula.png" alt="virgula decimal"></button></div>
-            <div class="="><button onclick="operator('=')"><img src="/Imagens/igual.png" alt="igual"></button></div>
+        <div id="teclado">
+
+            <button id="cancel"><img src="/Imagens/cancelar.png" alt="cancelar"></button>
+            <button id="limpar"><img src="/Imagens/limpar.png" alt="limpar"></button>
+            <button id="porcentagem"><img src="/Imagens/porcentagem.png" alt="porcentagem"></button>
+            <button id="dividir"><img src="/Imagens/divisao.png" alt="divisão"></button>
+            <button id="sete"><img src="/Imagens/sete.png" alt="sete"></button>
+            <button id="oito"><img src="/Imagens/oito.png" alt="oito"></button>
+            <button id="nove"><img src="/Imagens/nove.png" alt="nove"></button>
+            <button id="multiplicar"><img src="/Imagens/multiplicacao.png" alt="multiplicação"></button>
+            <button id="quatro"><img src="/Imagens/quatro.png" alt="quatro"></button>
+            <button id="cinco"><img src="/Imagens/cinco.png" alt="cinco"></button>
+            <button id="seis"><img src="/Imagens/seis.png" alt="seis"></button>
+            <button id="subtracao"><img src="/Imagens/subtracao.png" alt="subtração"></button>
+            <button id="um"><img src="/Imagens/um.png" alt="um"></button>
+            <button id="dois"><img src="/Imagens/dois.png" alt="dois"></button>
+            <button id="tres"><img src="/Imagens/tres.png" alt="três"></button>
+            <button id="somar"><img src="/Imagens/soma.png" alt="soma"></button>
+            <button id="inverter-sinal"><img src="/Imagens/mais ou menos.png" alt="operador = ou -"></button>
+            <button id="zero"><img src="/Imagens/zero.png" alt="zero"></button>
+            <button id="virgula"><img src="/Imagens/virgula.png" alt="virgula decimal"></button>
+            <button id="igual"><img src="/Imagens/igual.png" alt="igual"></button>
+
         </div>
+
     </div>
 </body>
 </html>

@@ -2,15 +2,14 @@
  <img src="/Imagens/WhatsApp Image 2024-04-23 at 11.34.50.jpeg" alt="demonstração do projeto" width="100%" />
 </p>
 
-## 🖥️ Projeto
+## 🖥️ Projeto Calculadora 
 
-Projeto 4 Live coding calculadora html/css
-(HTML) Yago Lucas [(yago0202)](https://github.com/yago0202)
-(CSS) Jean Farias ([JeanFar](https://github.com/JeanFar))
 ### 🔎 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- JavaScript
+- DOM (Document Object Management)
 - HTML
 - CSS
 - Github
