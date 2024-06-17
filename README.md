@@ -2,7 +2,12 @@
  <img src="/Imagens/WhatsApp Image 2024-04-23 at 11.34.50.jpeg" alt="demonstração do projeto" width="100%" />
 </p>
 
-## 🖥️ Projeto Calculadora 
+## 🖥️ Projeto Calculadora
+
+Esse projeto está finalizado. 
+Comecei esse projeto utilizando somente fundamentos de Html/Css no início do curso, e após isso, durante o módulo de JavaScript, acrescentei funcionalidades e interatividade à calculadora.
+Para abarcar minha linha de raciocínio desenvolvida, optei por modular o javascript, utilizando a funcionalidade de export/import. Isso tornou meu projeto mais organizado e coeso.
+A ideia é que a calculadora sirva para criar operações matemáticas simples, e pequenas expressões numéricas
 
 ### 🔎 Tecnologias
 
